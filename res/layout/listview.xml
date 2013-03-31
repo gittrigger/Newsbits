@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+	<ListView android:id="@+id/android:list"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent" 
+		android:layout_alignParentBottom="true"
+		android:scrollbarAlwaysDrawVerticalTrack="true"
+		android:scrollbars="vertical" android:scrollbarStyle="insideInset"
+		android:saveEnabled="true" android:background="#e0000010" android:stackFromBottom="false" android:layout_weight="1"/>
+
+	<TextView android:id="@+id/android:empty" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1" android:gravity="center" android:textStyle="bold" android:text="Thanks, downloading." android:shadowDx="2" android:shadowDy="2" android:shadowRadius="0.5" android:shadowColor="#505050" android:textColor="#a0b0b0" android:textSize="24px"/>
+		
+    
+</LinearLayout>
